@@ -21,32 +21,6 @@ public class RetrieveMessage {
     static int holder[][];
     
     
-    
-    public static String intToBinary(int n){
-    String s = "";
-    while (n > 0)
-    {
-        s =  ( (n % 2 ) == 0 ? "0" : "1") +s;
-        n = n / 2;
-    }
-    return s;
-}
-    
-  
-    
-    public static boolean checkLast(String num){
-        
-        boolean bool;
-        
-        bool = num.charAt(num.length() - 1) != 48;
-        
-        
-        return bool;
-    }
-   
-    
- 
-    
     public static void main(String[] args){
     
     holder = img.load("stegosaur_embedded.png");
@@ -97,7 +71,35 @@ public class RetrieveMessage {
        System.out.print(s);
     }
     
+    
+    
 }
+
+    public static String intToBinary(int n){
+    String s = "";
+    while (n > 0)
+    {
+        s =  ( (n % 2 ) == 0 ? "0" : "1") +s;
+        n = n / 2;
+    }
+    return s;
+}
+    
+  
+    
+    public static boolean checkLast(String num){
+        
+        boolean bool;
+        
+        bool = num.charAt(num.length() - 1) != 48;
+        
+        
+        return bool;
+    }
+   
+    
+ 
+    
 
 
 }
