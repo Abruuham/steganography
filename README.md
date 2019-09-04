@@ -54,7 +54,7 @@ MIT
 
 Feel free to follow me on [instagram] or on my [linked in]! I'm still and always will be learning and practicing new ways of programming so if you have any suggestions, please message me and help me learn something new!
 
-**Programminga, Hell Yeah!**
+**Programming, Hell Yeah!**
 
 
 
