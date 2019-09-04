@@ -1,4 +1,4 @@
-# Steganpgraphy
+# Steganography
 
 
 
