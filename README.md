@@ -11,6 +11,8 @@ This project was written in Java in order to practice steganography and learn mo
 
 
 
+![Screenshot](steg.png)
+
 
 
 ### Tech
